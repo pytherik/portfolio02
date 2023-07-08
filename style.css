@@ -7,7 +7,7 @@
     --nav-col-1: #E33E05cc;
     --nav-col-2: #B02D00cc;
     /*--nav-col-1-trans: #E33E0577;*/
-    /*--nav-col-2-trans: #B02D0077;*/
+    --nav-col-2-trans: #B02D0077;
 }
 
 * {
@@ -113,6 +113,16 @@ body {
     text-align: center;
     padding: 1rem;
 }
+
+.img {
+    background-color: #44444444;
+}
+
+.img img  {
+    width: 550px;
+    padding: 3rem;
+}
+
 .buttons {
     position: absolute;
     bottom: 1rem;
@@ -125,11 +135,11 @@ body {
 .btn {
     cursor: pointer;
     width: 8rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: inherit;
-    background-color: var(--nav-col-1);
+    background-color: var(--nav-col-2-trans);
     color: var(--primary-font-col);
-    padding: .5rem;
+    padding: .2rem;
     border: none;
     border-radius: .3rem;
     box-shadow:5px 5px 18px #000000aa;
