@@ -19,6 +19,7 @@
 ::-webkit-scrollbar {
     display: none;
 }
+
 body {
     background-color: var(--primary-bg-col);
     color: var(--primary-font-col);
@@ -73,6 +74,7 @@ body {
 }
 
 .img {
+    background-color: #aaaaaa66;
     cursor: pointer;
     margin: 3rem 1rem;
     /*padding: 2rem;*/
@@ -82,8 +84,15 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
-    border-radius: 1rem;
+    border: 1px solid #aaaaaa;
+    border-radius: .4rem;
     box-shadow:3px 3px 18px #222222aa;
+}
+
+.img img  {
+    width: 600px;
+    padding: 1rem 1rem 4rem;
+    border: 1px solid #aaaaaa;
 }
 
 .overlay {
@@ -108,19 +117,10 @@ body {
     font-size: 2rem;
 }
 
-.overlay-txt {
+.text {
     font-size: 1.3rem;
     text-align: center;
     padding: 1rem;
-}
-
-.img {
-    background-color: #444444aa;
-}
-
-.img img  {
-    width: 600px;
-    padding: 4rem;
 }
 
 .buttons {
@@ -152,6 +152,7 @@ body {
     transform: scale(1.1);
     transition: transform .2s ease-in;
 }
+
 a {
     color: var(--primary-font-col);
     text-decoration: none;
@@ -164,20 +165,17 @@ a {
     width: 100%;
     /*transform: rotate(-1deg);*/
     text-align: center;
-    padding: .5rem;
+    padding-bottom: .2rem;
     border-bottom: 2px solid var(--primary-font-col);
-    margin: .5rem;
+    margin-bottom: .5rem;
 }
 
 .section-header {
     margin: 4rem 0;
 }
 
+.first ,
 .motto {
-    color: var(--primary-font-col);
-}
-
-.first {
     color: var(--primary-font-col);
 }
 
@@ -270,3 +268,45 @@ nav.active ~ .icon .line2 {
     transform: rotate(765deg) translateY(-5.5px);
 }
 
+.about-container {
+    width: 75vw;
+}
+
+.contact {
+    width: 75vw;
+    height: 100%;
+    padding-top: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: .4rem;
+    /*background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("//picsum.photos/1920") center top;*/
+    /*background-size: cover;*/
+    background-image: linear-gradient(#2D584E, #062343);
+}
+
+.contact h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.contact__list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.contact .social-icons {
+    position: initial;
+    margin-top: 8rem;
+}
+
+.text-secondary {
+    color: var(--secondaryColor);
+}
+
+footer {
+    margin-bottom: .8rem;
+}
