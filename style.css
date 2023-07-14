@@ -123,6 +123,14 @@ body {
     padding: 1rem;
 }
 
+.about-header {
+    text-align: center;
+}
+
+.about {
+    text-align: left;
+}
+
 .buttons {
     position: absolute;
     bottom: .2rem;
@@ -269,7 +277,7 @@ nav.active ~ .icon .line2 {
 }
 
 .about-container {
-    width: 75vw;
+    width: 50vw;
 }
 
 .contact {
