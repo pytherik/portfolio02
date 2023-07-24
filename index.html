@@ -15,8 +15,9 @@
   <nav id="nav">
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#projects">Projects</a></li>
       <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
@@ -25,13 +26,38 @@
       <span class="line line2"></span>
     </button>
   <section id="home" class="section section-1">
-      <h3><span class="first">mein Name ist</span></h3>
+      <h3><span class="first">Hi, mein Name ist</span></h3>
       <h1 class="name-header">
         <span class="first">Erik</span> <span class="last">Berndt</span>
       </h1>
-      <h3 class="motto">creative 4.0</h3>
+      <span class="motto">Code is poetry</span>
+<!--    <cite>Ron Jeffries</cite>-->
   </section>
-  <section id="projects" class="section section-2">
+  <section id="about" class="section section-2">
+    <h1 class="section-header"><span class="last">About</span><span class="first"> me</span></h1>
+    <div class="about-container">
+      <h2 class="about-header">Hallo, ich bin Erik Berndt.</h2>
+      <p class="text about"> Innerhalb der letzten Jahre, habe ich ein großes Interesse für das Programmieren
+        und Technologie entwickelt, was mich dazu veranlasst hat, mich intensiv mit verschiedenen Programmiersprachen
+        auseinanderzusetzen. Vor einem Jahr ging ich es professionell an, indem ich eine Umschulung zum Fachinformatiker
+        Anwendungsentwicklung begonnen habe. Ich bin glücklich darüber diese Entscheidung getroffen zu haben.
+      </p>
+      <!--         <p class="text about"> Während ich in den letzten Jahren in der Tankstellenbranche gearbeitet habe,-->
+      <!--           habe ich ein großes Interesse für das Programmieren und die Technologie entwickelt, was mich-->
+      <!--           dazu veranlasst hat, mich intensiv mit verschiedenen Programmiersprachen auseinanderzusetzen. Ich ging es professionell an, indem ich eine Umschulung zum Fachinformatiker-->
+      <!--           Anwendungsentwicklung begonnen habe.</p>-->
+      <p class="text about">In meiner Freizeit widme ich mich der Musik. Die Gitarre ist mein Lieblingsinstrument und seit
+        jeher begleitet sie mich durch alle Höhen und Tiefen meines Lebens.
+        Ich habe sowohl auf der Bühne als auch im Studio Erfahrungen gesammelt und mein Repertoire
+        reicht vom Barock über Folk  bis hin zur Rockmusik.</p>
+      <p class="text about">Momentan bin ich auf der Suche nach einem Praktikumsplatz. Ich möchte meine bisher
+        erworbenen Kenntnisse mit Praxiswissen vertiefen und auch neue Bereiche entdecken:
+        in einem Unternehmen, wo ich mich den Herausforderungen stellen und produktiv an Projekten mitarbeiten kann.</p>
+      <!--            Im Unterricht werde ich für-->
+      <!--            meinen gründlich durchdachten Code gelobt. Kann ich das auch in einem Firmenprojekt umsetzen?</p>-->
+    </div>
+  </section>
+  <section id="projects" class="section section-3">
     <h1 class="section-header">
       <span class="last">Pr</span><span class="first">oje</span><span class="last">cts</span>
     </h1>
@@ -39,12 +65,12 @@
         <div class="img">
           <img class="project" src="./images/vokabelheft600.png" alt="project">
           <div class="overlay">
+            <p class="inner text lang">Javascript, PHP, mySQL</p>
             <h2 class="inner overlay-header">Vokabelheft</h2>
             <p class="inner text">Ein Lernprogramm für beliebig viele Lernende,
               die jeweils über ein eigenes Vokabelheft verfügen und gleichzeitig Zugriff auf
               den Gesamtbestand aller eingetragenen Wörter haben. Es kann sowohl englisch-deutsch, als
             auch deutsch-englisch abgefragt werden.</p>
-            <p class="inner text">Javascript, PHP, mySQL</p>
           </div>
           <div class="buttons">
             <div class="button">
@@ -59,12 +85,12 @@
         <div class="img">
           <img class="project" src="./images/woerdtle600.png" alt="project">
           <div class="overlay">
+            <p class="inner text lang">Python bzw Javascript mit Local Storage</p>
             <h2 class="inner overlay-header">Wördtle</h2>
             <p class="inner text">Ein Klon des von der New York Times veröffenlichten Spiels
               Wordle. Es ist möglich die Anzahl der Buchstaben des zu erratenden Wortes zu bestimmen,
             sowie deutsch oder englisch als Sprache zu wählen. Die Logik dafür habe ich zunächst in
             Python entwickelt und später als Browser App umgeschrieben.</p>
-            <p class="inner text">Python bzw Javascript mit Local Storage</p>
           </div>
           <div class="buttons">
             <div class="button">
@@ -79,9 +105,9 @@
         <div class="img">
           <img class="project" src="./images/formulaCrash600.png" alt="project">
           <div class="overlay">
+            <p class="inner text lang">Javascript</p>
             <h2 class="inner overlay-header">Formula Crash</h2>
             <p class="inner text">Ein einfaches Reaktionsspiel mit Audio Ausgabe.</p>
-            <p class="inner text">Javascript</p>
           </div>
           <div class="buttons">
             <div class="button">
@@ -95,11 +121,11 @@
         <div class="img">
           <img class="project" src="./images/networkCalc600.png" alt="project">
           <div class="overlay">
+            <p class="inner text lang">Javascript</p>
             <h2 class="inner overlay-header">Network Calc</h2>
             <p class="inner text">Ein Programm, das aus einer beliebigen IPv4 Adresse
               und gegebener CIDR die Subnetzmaske, Host- sowie Broadcastadresse und den nächsten
               Starthost erstellt. Dez, hex und bin Werte sind umschaltbar.</p>
-            <p class="inner text">Javascript</p>
           </div>
           <div class="buttons">
             <div class="button">
@@ -113,11 +139,11 @@
         <div class="img">
           <img class="project" src="./images/pampelMusic600.png" alt="project">
           <div class="overlay">
+            <p class="text inner lang">Javascript, PHP, mySQL</p>
             <h2 class="inner overlay-header">PampelMusic</h2>
             <p class="inner text">Mithilfe eines Udemy Tutorials programmierter Musikbrowser
               und Player, der von mir um ein Paar kleinere Features (eine Genreansicht und Tastatursteuerung)
               erweitert wurde.</p>
-            <p class="inner text">Javascript, PHP, mySQL</p>
           </div>
           <div class="buttons">
             <div class="button">
@@ -131,10 +157,10 @@
         <div class="img">
           <img class="project" src="./images/hangman600.png" alt="project">
           <div class="overlay">
+            <p class="inner text lang">PHP, mySQL</p>
             <h2 class="inner overlay-header">Hangman</h2>
-            <p class="inner text">Klassisches Hangman Spiel, in dem es um das erraten
+            <p class="inner text">Klassisches Hangman Spiel, in dem es um das Erraten
               von Begriffen aus der IT-Welt geht.</p>
-            <p class="inner text">PHP, mySQL</p>
           </div>
           <div class="buttons">
             <div class="button">
@@ -147,29 +173,44 @@
         </div>
       </div>
   </section>
-  <section id="about" class="section section-3">
-      <h1 class="section-header"><span class="last">About</span><span class="first"> me</span></h1>
-      <div class="about-container">
-        <h2 class="about-header">Hallo, ich bin Erik Berndt.</h2>
-         <p class="text about"> Innerhalb der letzten Jahre, habe ich ein großes Interesse für das Programmieren
-           und Technologie entwickelt, was mich dazu veranlasst hat, mich intensiv mit verschiedenen Programmiersprachen
-           auseinanderzusetzen. Vor einem Jahr ging ich es professionell an, indem ich eine Umschulung zum Fachinformatiker
-           Anwendungsentwicklung begonnen habe. Ich bin glücklich darüber diese Entscheidung getroffen zu haben.
-         </p>
-<!--         <p class="text about"> Während ich in den letzten Jahren in der Tankstellenbranche gearbeitet habe,-->
-<!--           habe ich ein großes Interesse für das Programmieren und die Technologie entwickelt, was mich-->
-<!--           dazu veranlasst hat, mich intensiv mit verschiedenen Programmiersprachen auseinanderzusetzen. Ich ging es professionell an, indem ich eine Umschulung zum Fachinformatiker-->
-<!--           Anwendungsentwicklung begonnen habe.</p>-->
-          <p class="text about">In meiner Freizeit widme ich mich der Musik. Die Gitarre ist mein Lieblingsinstrument und seit
-            jeher begleitet sie mich durch alle Höhen und Tiefen meines Lebens.
-           Ich habe sowohl auf der Bühne als auch im Studio Erfahrungen gesammelt und mein Repertoire
-            reicht von klassischer Musik bis hin zu rockigen Riffs.</p>
-          <p class="text about">Momentan bin ich auf der Suche nach einem Praktikumsplatz. Ich möchte meine bisher
-            erworbenen Kenntnisse mit Praxiswissen vertiefen und auch neue Bereiche entdecken. Im Unterricht werde ich für
-            meinen gründlich durchdachten Code gelobt. Kann ich das auch in einem Firmenprojekt umsetzen?</p>
+  <section id="skills" class="section section-4">
+    <h1 class="section-header"><span class="last">My</span><span class="first"> Skills</span></h1>
+    <div class="skills-container">
+      <div>
+        <span>HTML 5</span><br>
+        <img class="skill-img" src="./images/skills/html5.webp" alt="">
       </div>
+      <div>
+        <span>CSS 3</span><br>
+        <img class="skill-img" src="./images/skills/css3.webp" alt="">
+      </div>
+      <div>
+        <span>Javascript</span><br>
+        <img class="skill-img" src="./images/skills/js.webp" alt="">
+      </div>
+      <div>
+        <span>PHP</span><br>
+        <img class="skill-img" src="./images/skills/php.webp" alt="">
+      </div>
+      <div>
+        <span>react.js</span><br>
+        <img class="skill-img" src="./images/skills/react.webp" alt="">
+      </div>
+      <div>
+        <span>Python 3</span><br>
+      <img class="skill-img" src="./images/skills/python.webp" alt="">
+      </div>
+      <div>
+        <span>Ruby</span><br>
+        <img class="skill-img" src="./images/skills/ruby.webp" alt="">
+      </div>
+      <div>
+        <span>mySQL</span><br>
+        <img class="skill-img" src="./images/skills/mariaDB.webp" alt="">
+      </div>
+    </div>
   </section>
-  <section id="contact" class="section section-4">
+  <section id="contact" class="section section-5">
     <h1 class="section-header"><span class="last">Con</span><span class="first">tact</span></h1>
     <div class="contact">
       <div class="contact__list">
@@ -188,10 +229,11 @@
         </div>
       </div>
       <div class="social-icons">
-        <a href="//twitter.com" target="_blank "><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="//github.com/erik-berndt" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://github.com/erik-berndt" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/erik-berndt-b4a034285/" target="_blank "><i class="fa-brands fa-linkedin-in fa-2x"></i></a>
+        <a href="https://www.xing.com/profile/Erik_Berndt079218/cv" target="_blank "><i class="fa-brands fa-xing fa-2x"></i></a>
       </div>
-      <footer>&copy; Copyright 2023</footer>
+      <footer>&copy; Erik Berndt 2023</footer>
     </div>
   </section>
 </div>
