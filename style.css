@@ -87,15 +87,38 @@ body {
 }
 
 .about-container {
-    width: 70vw;
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
 }
+
 
 .about-header {
     font-size: 2rem;
 }
 
+.about-text-content {
+    width: 80%;
+    padding: 2rem;
+}
+
 .about {
     text-align: left;
+}
+
+.about-img {
+    background-color: #aaaaaa66;
+    margin: 3rem 1rem;
+    width: 550px;
+    border: 1px solid #aaaaaa;
+    border-radius: .4rem;
+    box-shadow: 3px 3px 18px #222222aa;
+}
+
+.about-img img {
+    width: 100%;
+    padding: .3rem;
 }
 
 .img-container {
@@ -124,6 +147,7 @@ body {
     padding: 1rem 1rem 4rem;
     border: 1px solid #aaaaaa;
 }
+
 
 .overlay {
     position: absolute;
